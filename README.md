@@ -1,2 +1,27 @@
-###
-Chatbot of kakaotalk template
+# 나만의 챗봇 만들기
+이 프로젝트는 카카오톡 플랫폼에 챗봇을 만들기 위한 서버용 소스코드 템플릿이다.
+
+# 챗봇에 처음 접하는 초보자를 위한 유용한 정보들
+### 카카오플러스 자동응답 봇 만들기 정보들
+- [Python 예제](http://annajinee.tistory.com/m/19)
+- [Node js 예제](https://cheese10yun.github.io/kakao-bot-node/) 
+### Facebook chatbot builder, [Chatfuel](https://chatfuel.com/)
+- 코딩없이 10분에 Facebook 챗봇을 만들 수 있다.
+
+### Build natural and rich conversational experiences, [Diaglogflow](https://dialogflow.com/)
+- Chatbot에 AI 능력이 필요할 때 유용하다.
+
+### 무엇을 만들 수 있지? [Bot list](https://chatbottle.co/)를 컨닝하자.
+- 챗봇으로 만들 때 유용한게 있다. 아무거나 만드는게 아니다.
+
+### Voice UI의 그래프 예제
+- 가능한 사용자 발화 flow를 사전에 디자인해야 한다.
+- Graph of interactions 예시
+<br><img width="80%" height="" src='https://cdn-images-1.medium.com/max/1600/1*2i3DF656t0UeiNqStZmI2g.png'></img>
+
+### 대화 구조 예시
+- 성공적인 발화를 위한 대화 구조 예시
+<br><img width="80%" height="" src='https://cdn-images-1.medium.com/max/1600/1*d6k6uPEmYw9R-5gYwMePew.png'></img>
+
+### 유투브 동영상 강좌
+- 역시 초보자에게는 [영상](https://www.youtube.com/playlist?list=PLediTDs5VjRg7x8fGJH0S3Sfjn2EsLvMI)이 최고
