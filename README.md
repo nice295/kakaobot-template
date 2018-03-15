@@ -14,6 +14,14 @@
 - [Python 예제](http://annajinee.tistory.com/m/19)
 - [Node js 예제](https://cheese10yun.github.io/kakao-bot-node/)
 
+### 카카오톡 플러스친구 API
+- [Github page](https://github.com/plusfriend/auto_reply)
+
+### 카카오톡 플러스친구 관리페이지
+- [관리페이지](https://center-pf.kakao.com/login)
+
+### Chatbot AI 스터디
+- [Diaglogflow docs](https://dialogflow.com/docs/getting-started/basics)
 ### Facebook chatbot builder, [Chatfuel](https://chatfuel.com/)
 - 코딩없이 10분에 Facebook 챗봇을 만들 수 있다.
 
