@@ -42,5 +42,7 @@
 - 성공적인 발화를 위한 대화 구조 예시
 <br><img width="80%" height="" src='https://cdn-images-1.medium.com/max/1600/1*d6k6uPEmYw9R-5gYwMePew.png'></img>
 
+### An Overview of Chatbot, [link](https://chatbotslife.com/an-overview-of-chatbot-a539b5fc55d3)
+
 ### 유투브 동영상 강좌
 - 역시 초보자에게는 [영상](https://www.youtube.com/playlist?list=PLediTDs5VjRg7x8fGJH0S3Sfjn2EsLvMI)이 최고
