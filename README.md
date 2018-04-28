@@ -13,6 +13,7 @@
 ### 챗봇 서버: 카카오플러스 자동응답 봇 만들기 정보들
 - [Python 예제](http://annajinee.tistory.com/m/19)
 - [Node js 예제](https://cheese10yun.github.io/kakao-bot-node/)
+- [바로 실습해 보기 with glitch](https://glitch.com/edit/#!/kakao-bot-templage)
 
 ### 카카오톡 플러스친구 API
 - [Github page](https://github.com/plusfriend/auto_reply)
