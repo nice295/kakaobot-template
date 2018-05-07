@@ -38,11 +38,37 @@ nice295	ALL=(ALL:ALL) ALL
 ```
 MacBook-Pro# ssh nice295@<server ip>
 ```
+# nodejs, npm, git 설치하기
+### npm install
+```
+sudo apt-get install npm
+npm update
+```
+
+### nodejs install
+```
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+```
+
+### Git install
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git
+```
 
 # 로컬 파일 서버에 올리기
 TBD
 
-# node server 백그라운드로 수행
+# node start server (for testing)
+```
+node server
+npm install
+```
+
+# node server 백그라운드로 수행 (for deploy)
 다른 여러가지 방법이 있지만 forever을 사용하는 것이 안정적이다.
 일단 forever을 설치한다.
 ```
@@ -73,3 +99,13 @@ forever restart 0
 
 # 서버 디버깅 하기
 TBD
+
+
+
+# 기타
+### Git config
+nice295@hs12249:~/github$ git config --global user.name "Kyuho Lee"
+nice295@hs12249:~/github$ git config --global user.email "nice295@gmail.com"
+
+### Git clone
+git clone https://github.com/nice295/kakaobot-template.git
