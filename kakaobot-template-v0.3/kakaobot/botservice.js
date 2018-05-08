@@ -15,15 +15,25 @@ const
 Bot.choseMenu = (req, content, callback) => {
 
   switch (content) {
-    case "왕좌의 게임은 무엇인가?":
-      callback(null, message.baseType("왕좌의 게임은 미국드라마입니다."));
+    /* top */
+    case "Text":
+      callback(null, message.baseType("This is text."));
       break;
 
-    case "왕좌의 게임에서 다음에 죽을 사람은?":
+    case "Photo":
       //callback(null, message.baseType("당신입니다."));
-      callback(null, message.photoType("다음에 죽을 사람은?", "https://s-i.huffpost.com/gen/5643294/thumbs/o-THE-570.jpg?7", "스노우 입니다.", "https://www.huffingtonpost.kr/2018/01/04/story_n_18936424.html") );
+      callback(null, message.photoTypeWithButtons("This is text", "https://placekitten.com/720/630", "This is label", "http://www.samsung.com/sec/", message.buttonsPhoto));
       break;
 
+    /* Photo */
+    case "Sub text":
+      callback(null, message.baseTypeWithButtons("This is sub text.", message.buttonsPhoto));
+      break;
+      
+    case "Go up":
+      callback(null, message.baseType("This is home."));
+      break;
+      
     default:
       callback(null, message.baseType("알 수 없는 명령입니다."));
       /*
