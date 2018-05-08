@@ -17,6 +17,13 @@ message.buttons = [ "Text",
 message.buttonsPhoto = [ "Sub text",
                           "Go up"];
 
+message.buttonsType = () => {
+    return {
+        type: 'buttons',
+        buttons: message.buttons
+    }
+};
+
 message.baseType = (text) => {
     return {
         message: {
