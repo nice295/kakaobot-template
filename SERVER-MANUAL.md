@@ -60,7 +60,7 @@ sudo apt-get install git
 ```
 
 # 로컬 파일 서버에 올리기
-TBD
+FTP, sFTP 등 여러가지 방법이 있을 수 있다. 하지만 github를 중간에 두고 로컬과 서버를 중개하는 게 좀 쉬운 듯 하다.
 
 # node start server (for testing)
 ```
@@ -99,7 +99,6 @@ forever restart 0
 
 # 서버 디버깅 하기
 TBD
-
 
 
 # 기타
